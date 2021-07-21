@@ -1,0 +1,7 @@
+{
+  "name": "FingerprintAIO",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

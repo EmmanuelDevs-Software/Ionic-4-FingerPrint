@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ngx-indexeddb</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div *ngFor="let item of data; let i = index">
+  <p>{{item.id}}-{{item.name}}- <button (click)="delete(item.id)">Delete</button></p>
+  
+
+  </div>
+
+</ion-content>
